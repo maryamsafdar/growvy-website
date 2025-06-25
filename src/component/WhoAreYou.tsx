@@ -168,7 +168,7 @@ export default function WhoAreYou() {
       <div className="flex flex-col md:flex-row-reverse items-center md:justify-between gap-10 animate__animated animate__fadeInUp animate__delay-4s"
       data-aos="fade-up">
         <div className="w-full md:w-auto text-center md:text-left flex flex-col items-center md:items-start">
-          <h3 className="text-3xl font-bold mb-3 v">I’m Business!</h3>
+          <h3 className="text-3xl font-bold mb-3 text-black">I’m Business!</h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
             Looking for CRM or Data resources <br /> to boost my business.
           </p>
