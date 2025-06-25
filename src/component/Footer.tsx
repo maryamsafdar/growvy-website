@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="w-full py-12 px-6 md:px-12 lg:px-20 mt-20 ">
+    <footer className="w-full py-12 px-6 md:px-12 lg:px-20 mt-20 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-12 text-center md:text-left">
         
         {/* Left: Description and Social Icons */}
