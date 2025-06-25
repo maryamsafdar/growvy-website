@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Left: Description and Social Icons */}
         <div className="flex-1">
-          <h2 className="text-3xl md:text-4xl font-bold mb-3">Growvy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-3 text-black">Growvy</h2>
           <p className="text-gray-700 text-sm md:text-base mb-4 leading-relaxed">
             Optimize your business with smart asset management, 
             growth strategies, and cutting-edge solutions to boost

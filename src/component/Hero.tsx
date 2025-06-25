@@ -19,7 +19,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold leading-tight mb-4"
+          className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-black"
         >
           Maximize <br />
           <span className="relative inline-block px-1">
@@ -28,7 +28,7 @@ export default function Hero() {
               viewBox="0 0 160 50"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute -bottom-0.5 left-0 w-full h-6 md:h-7"
+              className="absolute -bottom-0.5 left-0 w-full h-6 md:h-7 text-black"
             >
               <ellipse cx="80" cy="25" rx="75" ry="14" stroke="#00C200" strokeWidth="4" />
               <ellipse cx="80" cy="27" rx="75" ry="14" stroke="#00C200" strokeWidth="2" />

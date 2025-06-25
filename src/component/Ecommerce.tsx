@@ -6,7 +6,7 @@ export default function Ecommerce() {
     <section className="w-full px-6 md:px-12 lg:px-20 mt-20" data-aos="fade-up">
       <div className="flex flex-col md:flex-row items-center gap-10 lg:gap-28">
         <div className="flex-1 text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-3">E-commerce Owner?</h3>
+          <h3 className="text-3xl font-bold mb-3 text-black">E-commerce Owner?</h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
             Optimize your business with smart <br />
             asset management, growth <br />
