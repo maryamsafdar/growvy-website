@@ -7,7 +7,7 @@ export default function CommunitySection() {
   return (
     <section className="text-center bg-white py-8 px-6 "
      data-aos="fade-up">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4 mt-20">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4 mt-20 text-black">
         Join Growvy’s 50M+ Job Seeker <br /> Community &amp; Get Hired Faster!
       </h2>
       <p className="text-sm text-gray-600 mb-4">

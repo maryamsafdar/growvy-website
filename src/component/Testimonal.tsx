@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 export default function TestimonialsSlider() {
   return (
     <section className="max-w-2xl mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">What People Say</h2>
 
       <Swiper
         modules={[Pagination]}

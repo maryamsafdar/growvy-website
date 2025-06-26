@@ -13,7 +13,7 @@ export default function ServicesPage() {
       {/* Header Section */}
       <section className="bg-green-100 text-center py-12 px-6 rounded-b-[10rem]"
       data-aos="fade-up">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-8">Services</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-8 text-black">Services</h1>
         <p className="text-gray-700 max-w-2xl mx-auto text-base md:text-lg mt-5">
           At Growvy, we provide innovative, cost-effective solutions to help businesses
           and professionals thrive.
@@ -25,7 +25,7 @@ export default function ServicesPage() {
         {/* Service 1 */}
         <div className="text-center border-2 border-black rounded-4xl p-6 flex flex-col items-center justify-between">
           <Image src="/job seeker.webp" alt="Hiring" width={150} height={150} className="mb-4 -mt-20" />
-          <h3 className="font-bold text-xl mb-2">Hiring</h3>
+          <h3 className="font-bold text-xl mb-2 text-black">Hiring</h3>
           <p className="text-gray-600 mb-6">
             Access a vast talent pool to hire the right candidates quickly and affordably.
           </p>
@@ -39,7 +39,7 @@ export default function ServicesPage() {
         {/* Service 2 */}
         <div className="text-center border-2 border-black rounded-4xl p-6 flex flex-col items-center justify-between">
           <Image src="/ecommerce.avif" alt="E-commerce" width={200} height={200} className="mb-4 -mt-20" />
-          <h3 className="font-bold text-xl mb-2">E-commerce</h3>
+          <h3 className="font-bold text-xl mb-2 text-black">E-commerce</h3>
           <p className="text-gray-600 mb-6">
             Drive expansion with targeted strategies and market-driven solutions.
           </p>
@@ -53,7 +53,7 @@ export default function ServicesPage() {
         {/* Service 3 */}
         <div className="text-center border-2 border-black rounded-4xl p-6 flex flex-col items-center justify-between">
           <Image src="/business.jpg" alt="Business" width={200} height={200} className="mb-4 -mt-20" />
-          <h3 className="font-bold text-xl mb-2">Business</h3>
+          <h3 className="font-bold text-xl mb-2 text-black">Business</h3>
           <p className="text-gray-600 mb-6">
             Optimize and manage business resources with data-backed insights.
           </p>
