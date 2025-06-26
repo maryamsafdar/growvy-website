@@ -12,10 +12,10 @@ export default function PricingPage() {
       <section className="bg-green-100 text-center py-12 px-6 rounded-b-[10rem] w-full max-w-none"
        data-aos="fade-up">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-8">Pricing</h1>
-        <p className="text-gray-700 max-w-2xl mx-auto text-base md:text-lg mt-5">
-          "Discover flexible pricing plans tailored to your needs—start growing
-          with us today!"
-        </p>
+       <p className="text-gray-700 max-w-2xl mx-auto text-base md:text-lg mt-5">
+  &quot;Discover flexible pricing plans tailored to your needs—start growing with us today!&quot;
+</p>
+
       </section>
 
       {/* Recruitment Section */}
@@ -31,10 +31,9 @@ export default function PricingPage() {
         <h2 className="text-3xl md:text-4xl font-bold mb-2">
           Recruitment Solution
         </h2>
-        <p className="text-sm text-gray-600 mb-6 max-w-xl mx-auto">
-          "Unlock seamless hiring with our tailored Recruitment Plans—flexible
-          pricing designed to find your perfect talent, fast!"
-        </p>
+       <p className="text-sm text-gray-600 mb-6 max-w-xl mx-auto">
+  &quot;Unlock seamless hiring with our tailored Recruitment Plans—flexible pricing designed to find your perfect talent, fast!&quot;
+</p>
         <Link href="/contact">
           <button className="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-700 transition">
             Plans
@@ -57,9 +56,8 @@ export default function PricingPage() {
           E-commerce Solutions
         </h2>
         <p className="text-sm text-gray-600 mb-6 max-w-xl mx-auto">
-          "Boost your online store with our E-commerce Plans—affordable pricing
-          crafted to scale your business effortlessly!
-        </p>
+  &quot;Boost your online store with our E-commerce Plans—affordable pricing crafted to scale your business effortlessly!&quot;
+</p>
         <Link href="/contact">
           <button className="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-700 transition">
             Plans
@@ -80,12 +78,9 @@ export default function PricingPage() {
         />
         <h2 className="text-3xl md:text-4xl font-bold mb-2">
           Business Solutions
-        </h2>
-        <p className="text-sm text-gray-600 mb-6 max-w-xl mx-auto">
-          "Boost your online store with our E-commerce Plans—affordable pricing
-          crafted to scale your business effortlessly!"
-        </p>
-        <Link href="/contact">
+        </h2><p className="text-sm text-gray-600 mb-6 max-w-xl mx-auto">
+  &quot;Boost your online store with our E-commerce Plans—affordable pricing crafted to scale your business effortlessly!&quot;
+</p>        <Link href="/contact">
           <button className="bg-green-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-green-700 transition">
             Plans
           </button>
