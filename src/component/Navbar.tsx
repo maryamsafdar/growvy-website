@@ -11,7 +11,7 @@ const routes = [
 
 export default function Navbar() {
   return (
-    <nav className="border rounded-full px-6 py-2 mb-12">
+    <nav className="border rounded-full px-6 py-2 mb-12 bg-white shadow-md">
       <ul className="flex flex-wrap justify-center gap-4 font-semibold text-base sm:text-lg">
         {routes.map((route) => (
           <li key={route.label}>
