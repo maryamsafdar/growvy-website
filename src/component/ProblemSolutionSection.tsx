@@ -2,8 +2,6 @@
 import Image from "next/image";
 
 export default function GrowvySolutions() {
- 
-
   return (
     <section className="flex flex-col gap-16 w-full px-6 md:px-12 lg:px-20 min-h-[1px]">
       {/* Item 1 */}
@@ -16,16 +14,19 @@ export default function GrowvySolutions() {
             Problems in Hiring
           </h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
-            Companies spend high $$$ budgets <br/>on job portals like Indeed and <br/>
-            LinkedIn, only to receive low-quality <br/>CVs and irrelevant applicants,<br/>
+            Companies spend high $$$ budgets <br />
+            on job portals like Indeed and <br />
+            LinkedIn, only to receive low-quality <br />
+            CVs and irrelevant applicants,
+            <br />
             making hiring slow and inefficient.
           </p>
         </div>
         <Image
-          src="/job seeker.webp"
-          alt="Job Seeker"
-          width={250}
-          height={250}
+          src="/question-marks.png"
+          alt="Hiring Problems"
+          width={350}
+          height={350}
           className="object-contain hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -40,20 +41,22 @@ export default function GrowvySolutions() {
             With Growvy Solution
           </h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
-            With Growvy, businesses can access a <br/>database of active job seekers
-            who have  <br/>recently joined for job search. Use advanced  <br/>filters  to
-            find the right candidates quickly and  <br/>at a fraction of the cost—no
-            wasted budget, <br/> just quality hires!
+            With Growvy, businesses can access a <br />
+            database of active job seekers who have <br />
+            recently joined for job search. Use advanced <br />
+            filters to find the right candidates quickly and <br />
+            at a fraction of the cost—no wasted budget, <br /> just quality
+            hires!
           </p>
           <button className="bg-green-600 text-white font-semibold py-2.5 px-8 rounded-full text-base hover:bg-green-700 transition">
             Post a Job
           </button>
         </div>
         <Image
-          src="/employee.jpg"
+          src="/circle-boy.png"
           alt="Employer"
-          width={250}
-          height={250}
+          width={450}
+          height={450}
           className="object-contain hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -68,16 +71,17 @@ export default function GrowvySolutions() {
             E-commerce Business
           </h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
-            E-commerce businesses struggle with high <br/> marketing costs,
-            inefficient operations, and <br/> slow growth, making it difficult to
-            scale and  <br/>maximize profits.
+            E-commerce businesses struggle with high <br /> marketing costs,
+            inefficient operations, and <br /> slow growth, making it difficult
+            to scale and <br />
+            maximize profits.
           </p>
         </div>
         <Image
-          src="/ecommerce.avif"
+          src="/green.png"
           alt="Ecommerce"
-          width={250}
-          height={250}
+          width={450}
+          height={450}
           className="object-contain hover:scale-105 transition-transform duration-500"
         />
       </div>
@@ -92,19 +96,20 @@ export default function GrowvySolutions() {
             With Growvy Solution
           </h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
-            Growvy helps e-commerce businesses streamline  <br/>operations, manage
-            assets, and implement smart  <br/>growth strategies to boost sales and
-            efficiency—all <br/> at a low cost with proven results.
+            Growvy helps e-commerce businesses streamline <br />
+            operations, manage assets, and implement smart <br />
+            growth strategies to boost sales and efficiency—all <br /> at a low
+            cost with proven results.
           </p>
           <button className="bg-green-600 text-white font-semibold py-2.5 px-8 rounded-full text-base hover:bg-green-700 transition">
             Business Plans
           </button>
         </div>
         <Image
-          src="/business.jpg"
+          src="/arrow.png"
           alt="Business"
-          width={250}
-          height={250}
+          width={450}
+          height={450}
           className="object-contain hover:scale-105 transition-transform duration-500"
         />
       </div>

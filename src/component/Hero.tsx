@@ -15,28 +15,49 @@ export default function Hero() {
       data-aos="fade-up"
     >
       <div className="text-left max-w-xl">
+        {/* Heading */}
         <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-black"
-        >
-          Maximize <br />
-          <span className="relative inline-block px-1">
-            <span className="text-black -mt-4">business</span>
-            <svg
-              viewBox="0 0 160 50"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute -bottom-0.5 left-0 w-full h-6 md:h-7 text-black"
-            >
-              <ellipse cx="80" cy="25" rx="75" ry="14" stroke="#00C200" strokeWidth="4" />
-              <ellipse cx="80" cy="27" rx="75" ry="14" stroke="#00C200" strokeWidth="2" />
-            </svg>
-          </span>{" "}
-          efficiency
-        </motion.h1>
+  initial={{ opacity: 0, y: -50 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-black"
+>
+  Maximize <br />
+ <span className="relative inline-block mr-2">
+  <span className="text-black">business</span>
+  <svg
+    viewBox="0 0 400 120"
+    xmlns="http://www.w3.org/2000/svg"
+    className="absolute -top-8 -left-8 w-[150%] h-[160%] pointer-events-none"
+    style={{ transform: "rotate(-10deg)" }}
+  >
+    <ellipse
+      cx="200"
+      cy="60"
+      rx="180"
+      ry="36" 
+      stroke="#00C200"
+      strokeWidth="4"
+      fill="none"
+    />
+    <ellipse
+      cx="200"
+      cy="64"
+      rx="180"
+      ry="36"  
+      stroke="#00C200"
+      strokeWidth="2"
+      fill="none"
+    />
+  </svg>
+</span>
 
+  {" "}
+  efficiency
+</motion.h1>
+
+
+        {/* Subheading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,6 +68,7 @@ export default function Hero() {
           <span className="text-green-600 text-5xl md:text-6xl font-bold leading-none -mt-4">Growvy</span>
         </motion.div>
 
+        {/* Paragraph */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -56,6 +78,7 @@ export default function Hero() {
           Scale your company with <br /> tailored strategies, market <br /> insights, and expert consulting.
         </motion.p>
 
+        {/* Button */}
         <motion.button
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -66,6 +89,7 @@ export default function Hero() {
         </motion.button>
       </div>
 
+      {/* Right Side Graphic */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
