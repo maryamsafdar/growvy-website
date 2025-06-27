@@ -103,6 +103,9 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 - Used `relative` + `absolute` positioning and tuned SVG `viewBox`, `rx`, and `ry`
 - Applied Tailwind spacing utilities (`gap`, `px`, `mt`, `ml`) and responsive modifiers (`md:`, `lg:`)
 - Broke large code blocks into **small, focused components**
+- Reduced padding and min-height where extra space was showing.
+- Used `.map()` carefully or manually created sections where required.
+
 
 ---
 
