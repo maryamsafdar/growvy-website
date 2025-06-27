@@ -1,22 +1,11 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function CommunitySection() {
   return (
     <section className="text-center bg-white py-8 px-6" data-aos="fade-up">
       <h2 className="text-3xl md:text-4xl font-bold mb-4 mt-20 text-black relative inline-block">
-        <span className="relative inline-block">
-          {/* Image positioned at top-left of "Join" */}
-          <Image
-            src="/User.jpg" // replace with any image you prefer
-            alt="User Icon"
-            width={40}
-            height={40}
-            className="absolute -top-6 -left-6 rounded-full border-2 border-white shadow-md"
-          />
-          Join
-        </span>{" "}
+        
         Growvy’s 50M+ Job Seeker <br /> Community &amp; Get Hired Faster!
       </h2>
 
