@@ -1,118 +1,87 @@
 "use client";
 import Image from "next/image";
 
+interface SolutionItem {
+  title: string;
+  description: string;
+  image: string;
+  alt: string;
+  buttonText?: string;
+  reverse?: boolean;
+}
+
+const solutions: SolutionItem[] = [
+  {
+    title: "Problems in Hiring",
+    description: `Companies spend high $$$ budgets
+on job portals like Indeed and LinkedIn, only to receive
+low-quality CVs and irrelevant applicants, making hiring
+slow and inefficient.`,
+    image: "/question-marks.png",
+    alt: "Hiring Problems",
+  },
+  {
+    title: "With Growvy Solution",
+    description: `With Growvy, businesses can access a
+database of active job seekers who have recently joined for job search.
+Use advanced filters to find the right candidates quickly and at a fraction
+of the cost—no wasted budget, just quality hires!`,
+    image: "/circle-boy.png",
+    alt: "Employer",
+    buttonText: "Post a Job",
+    reverse: true,
+  },
+  {
+    title: "E-commerce Business",
+    description: `E-commerce businesses struggle with high
+marketing costs, inefficient operations, and slow growth,
+making it difficult to scale and maximize profits.`,
+    image: "/green.png",
+    alt: "Ecommerce",
+  },
+  {
+    title: "With Growvy Solution",
+    description: `Growvy helps e-commerce businesses streamline operations,
+manage assets, and implement smart growth strategies to boost sales and
+efficiency—all at a low cost with proven results.`,
+    image: "/arrow.png",
+    alt: "Business",
+    buttonText: "Business Plans",
+    reverse: true,
+  },
+];
+ 
 export default function GrowvySolutions() {
   return (
     <section className="flex flex-col gap-16 w-full px-6 md:px-12 lg:px-20 min-h-[1px]">
-      {/* Item 1 */}
-      <div
-        className="flex flex-col md:flex-row items-center gap-10 animate__animated animate__fadeInUp animate__delay-1s"
-        data-aos="fade-up"
-      >
-        <div className="flex-1 text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-3 text-black">
-            Problems in Hiring
-          </h3>
-          <p className="text-gray-700 mb-5 text-base md:text-lg">
-            Companies spend high $$$ budgets <br />
-            on job portals like Indeed and <br />
-            LinkedIn, only to receive low-quality <br />
-            CVs and irrelevant applicants,
-            <br />
-            making hiring slow and inefficient.
-          </p>
+      {solutions.map((item, index) => (
+        <div
+          key={index}
+          className={`flex flex-col ${
+            item.reverse ? "md:flex-row-reverse" : "md:flex-row"
+          } items-center gap-10 animate__animated animate__fadeInUp animate__delay-${index + 1}s`}
+          data-aos="fade-up"
+        >
+          <div className="flex-1 text-center md:text-left">
+            <h3 className="text-3xl font-bold mb-3 text-black">{item.title}</h3>
+            <p className="text-gray-700 mb-5 text-base md:text-lg whitespace-pre-line">
+              {item.description}
+            </p>
+            {item.buttonText && (
+              <button className="bg-green-600 text-white font-semibold py-2.5 px-8 rounded-full text-base hover:bg-green-700 transition">
+                {item.buttonText}
+              </button>
+            )}
+          </div>
+          <Image
+            src={item.image}
+            alt={item.alt}
+            width={450}
+            height={450}
+            className="object-contain hover:scale-105 transition-transform duration-500"
+          />
         </div>
-        <Image
-          src="/question-marks.png"
-          alt="Hiring Problems"
-          width={350}
-          height={350}
-          className="object-contain hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-
-      {/* Item 2 */}
-      <div
-        className="flex flex-col md:flex-row-reverse items-center md:justify-between gap-10 animate__animated animate__fadeInUp animate__delay-2s"
-        data-aos="fade-up"
-      >
-        <div className="w-full md:w-auto text-center md:text-left flex flex-col items-center md:items-start">
-          <h3 className="text-3xl font-bold mb-3 text-black">
-            With Growvy Solution
-          </h3>
-          <p className="text-gray-700 mb-5 text-base md:text-lg">
-            With Growvy, businesses can access a <br />
-            database of active job seekers who have <br />
-            recently joined for job search. Use advanced <br />
-            filters to find the right candidates quickly and <br />
-            at a fraction of the cost—no wasted budget, <br /> just quality
-            hires!
-          </p>
-          <button className="bg-green-600 text-white font-semibold py-2.5 px-8 rounded-full text-base hover:bg-green-700 transition">
-            Post a Job
-          </button>
-        </div>
-        <Image
-          src="/circle-boy.png"
-          alt="Employer"
-          width={450}
-          height={450}
-          className="object-contain hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-
-      {/* Item 3 */}
-      <div
-        className="flex flex-col md:flex-row items-center gap-10 animate__animated animate__fadeInUp animate__delay-3s"
-        data-aos="fade-up"
-      >
-        <div className="flex-1 text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-3 text-black">
-            E-commerce Business
-          </h3>
-          <p className="text-gray-700 mb-5 text-base md:text-lg">
-            E-commerce businesses struggle with high <br /> marketing costs,
-            inefficient operations, and <br /> slow growth, making it difficult
-            to scale and <br />
-            maximize profits.
-          </p>
-        </div>
-        <Image
-          src="/green.png"
-          alt="Ecommerce"
-          width={450}
-          height={450}
-          className="object-contain hover:scale-105 transition-transform duration-500"
-        />
-      </div>
-
-      {/* Item 4 */}
-      <div
-        className="flex flex-col md:flex-row-reverse items-center md:justify-between gap-10 animate__animated animate__fadeInUp animate__delay-4s"
-        data-aos="fade-up"
-      >
-        <div className="w-full md:w-auto text-center md:text-left flex flex-col items-center md:items-start">
-          <h3 className="text-3xl font-bold mb-3 text-black">
-            With Growvy Solution
-          </h3>
-          <p className="text-gray-700 mb-5 text-base md:text-lg">
-            Growvy helps e-commerce businesses streamline <br />
-            operations, manage assets, and implement smart <br />
-            growth strategies to boost sales and efficiency—all <br /> at a low
-            cost with proven results.
-          </p>
-          <button className="bg-green-600 text-white font-semibold py-2.5 px-8 rounded-full text-base hover:bg-green-700 transition">
-            Business Plans
-          </button>
-        </div>
-        <Image
-          src="/arrow.png"
-          alt="Business"
-          width={450}
-          height={450}
-          className="object-contain hover:scale-105 transition-transform duration-500"
-        />
-      </div>
+      ))}
     </section>
   );
 }

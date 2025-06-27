@@ -7,7 +7,6 @@ import JobSeekerSection from "@/component/JobSeekerSection";
 import TopJobs from "@/component/TopJobs";
 import React from "react";
 
-
 export default function JobsPage() {
   return (
     <main className="bg-white min-h-screen">

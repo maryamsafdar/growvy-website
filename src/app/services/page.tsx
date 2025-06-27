@@ -2,14 +2,10 @@
 
 import ServicesPage from "@/component/ServicePage";
 
-
-
-
 export default function Services() {
   return (
     <main className="bg-white min-h-screen">
-      <ServicesPage/>
-
+      <ServicesPage />
     </main>
   );
 }

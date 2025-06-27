@@ -4,10 +4,6 @@ import RecruitmentSolution from "@/component/RecruimentSolution";
 import ScheduleCall from "@/component/ScheduleCall";
 import PricingCard from "./PricingCard";
 
-
-
-
-
 export default function PricingPage() {
   return (
     <main className="bg-white text-black">
@@ -18,7 +14,8 @@ export default function PricingPage() {
       >
         <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-8">Pricing</h1>
         <p className="text-gray-700 max-w-2xl mx-auto text-base md:text-lg mt-5">
-          Discover flexible pricing plans tailored to your needs—start growing with us today!
+          Discover flexible pricing plans tailored to your needs—start growing
+          with us today!
         </p>
       </section>
 

@@ -7,9 +7,8 @@ export default function CommunitySection() {
     <section className="text-center bg-white py-8 px-6" data-aos="fade-up">
       <h2 className="text-3xl md:text-4xl font-bold mb-4 mt-20 text-black relative inline-block">
         <span className="relative inline-block">
-          {/* Image positioned at top-left of "Join" */}
           <Image
-            src="/Community.png" // replace with any image you prefer
+            src="/Community.png"
             alt="Community Icon"
             width={8000}
             height={8000}
@@ -21,8 +20,10 @@ export default function CommunitySection() {
       </h2>
 
       <p className="text-sm text-gray-600 mb-4">
-        Build your profile, get noticed by top employers, and access exclusive job <br />
-        opportunities tailored to your skills. Your next career move starts here!
+        Build your profile, get noticed by top employers, and access exclusive
+        job <br />
+        opportunities tailored to your skills. Your next career move starts
+        here!
       </p>
 
       <Link href="/pricing">

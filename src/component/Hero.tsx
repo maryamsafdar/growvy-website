@@ -17,45 +17,42 @@ export default function Hero() {
       <div className="text-left max-w-xl">
         {/* Heading */}
         <motion.h1
-  initial={{ opacity: 0, y: -50 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-black"
->
-  Maximize <br />
- <span className="relative inline-block mr-2">
-  <span className="text-black">business</span>
-  <svg
-    viewBox="0 0 400 120"
-    xmlns="http://www.w3.org/2000/svg"
-    className="absolute -top-8 -left-8 w-[150%] h-[160%] pointer-events-none"
-    style={{ transform: "rotate(-10deg)" }}
-  >
-    <ellipse
-      cx="200"
-      cy="60"
-      rx="180"
-      ry="36" 
-      stroke="#00C200"
-      strokeWidth="4"
-      fill="none"
-    />
-    <ellipse
-      cx="200"
-      cy="64"
-      rx="180"
-      ry="36"  
-      stroke="#00C200"
-      strokeWidth="2"
-      fill="none"
-    />
-  </svg>
-</span>
-
-  {" "}
-  efficiency
-</motion.h1>
-
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-black"
+        >
+          Maximize <br />
+          <span className="relative inline-block mr-2">
+            <span className="text-black">business</span>
+            <svg
+              viewBox="0 0 400 120"
+              xmlns="http://www.w3.org/2000/svg"
+              className="absolute -top-8 -left-8 w-[150%] h-[160%] pointer-events-none"
+              style={{ transform: "rotate(-10deg)" }}
+            >
+              <ellipse
+                cx="200"
+                cy="60"
+                rx="180"
+                ry="36"
+                stroke="#00C200"
+                strokeWidth="4"
+                fill="none"
+              />
+              <ellipse
+                cx="200"
+                cy="64"
+                rx="180"
+                ry="36"
+                stroke="#00C200"
+                strokeWidth="2"
+                fill="none"
+              />
+            </svg>
+          </span>{" "}
+          efficiency
+        </motion.h1>
 
         {/* Subheading */}
         <motion.div
@@ -64,8 +61,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex flex-col mb-6 leading-tight items-start"
         >
-          <span className="text-green-600 text-lg md:text-2xl font-medium pl-20 -mt-4">with</span>
-          <span className="text-green-600 text-5xl md:text-6xl font-bold leading-none -mt-4">Growvy</span>
+          <span className="text-green-600 text-lg md:text-2xl font-medium pl-20 -mt-4">
+            with
+          </span>
+          <span className="text-green-600 text-5xl md:text-6xl font-bold leading-none -mt-4">
+            Growvy
+          </span>
         </motion.div>
 
         {/* Paragraph */}
@@ -75,7 +76,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="text-base md:text-lg text-gray-700 mb-6"
         >
-          Scale your company with <br /> tailored strategies, market <br /> insights, and expert consulting.
+          Scale your company with <br /> tailored strategies, market <br />{" "}
+          insights, and expert consulting.
         </motion.p>
 
         {/* Button */}
@@ -96,7 +98,12 @@ export default function Hero() {
         transition={{ duration: 1, delay: 0.8 }}
         className="relative w-[300px] sm:w-[400px] md:w-[500px] h-[300px] sm:h-[400px] md:h-[500px]"
       >
-        <Image src="/arrow.jpg" alt="Arrow Up" fill className="object-contain" />
+        <Image
+          src="/arrow.jpg"
+          alt="Arrow Up"
+          fill
+          className="object-contain"
+        />
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

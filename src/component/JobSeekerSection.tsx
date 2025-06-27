@@ -9,7 +9,9 @@ export default function JobSeekerSection() {
         data-aos="fade-up"
       >
         <div className="flex-1 text-center md:text-left">
-          <h3 className="text-3xl font-bold mb-3 text-black">I’m a Job Seeker!</h3>
+          <h3 className="text-3xl font-bold mb-3 text-black">
+            I’m a Job Seeker!
+          </h3>
           <p className="text-gray-700 mb-5 text-base md:text-lg">
             Looking for job according to my <br /> skills and requirements.
           </p>

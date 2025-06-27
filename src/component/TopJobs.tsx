@@ -3,7 +3,6 @@
 
 import React from "react";
 
-
 const TopJobs = () => {
   const jobs = [
     "Business Developer",
@@ -19,13 +18,14 @@ const TopJobs = () => {
     "Delivery Man",
     "Urdu/ English/ Call Center Agent",
     "Morning Shift Jobs For Females",
-    "Accountant"
-
+    "Accountant",
   ];
 
   return (
-    <section className="w-full bg-white px-4 sm:px-6 md:px-10 lg:px-24 xl:px-32 py-12"
-     data-aos="fade-up">
+    <section
+      className="w-full bg-white px-4 sm:px-6 md:px-10 lg:px-24 xl:px-32 py-12"
+      data-aos="fade-up"
+    >
       <h2 className="text-3xl font-bold text-center text-black mb-8">
         Top Jobs
       </h2>
@@ -45,8 +45,6 @@ const TopJobs = () => {
           </div>
         ))}
       </div>
-      
-
     </section>
   );
 };
