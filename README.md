@@ -38,8 +38,8 @@ growvy-career/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/growvy-career.git
-cd growvy-career
+git clone https://github.com/maryamsafdar/growvy-website
+cd growvy-website
 ```
 
 ### 2. Install dependencies
@@ -82,13 +82,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 - `npm run start` – Start production server
 - `npm run lint` – Run ESLint
 
----
-
-## 📸 Screenshots
-
-> Add screenshots if needed for Jobs, Pricing, Services, and Hero sections
-
----
 
 ## 📝 Explanation Note
 
@@ -115,13 +108,13 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## 🌐 Live Demo
 
-You can deploy it using [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/)
+You can deploy it using [Vercel](https://growvy-website.vercel.app/) 
 
 ---
 
 ## 📎 GitHub Repository
 
-🔗 [https://github.com/your-username/growvy-career](https://github.com/your-username/growvy-career)
+🔗 [https://github.com/maryamsafdar/growvy-website](https://github.com/maryamsafdar/growvy-website)
 
 ---
 
