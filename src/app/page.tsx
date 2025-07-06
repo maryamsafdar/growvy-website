@@ -2,7 +2,7 @@
 
 
 import Banner from '@/component/Banner';
-import ChatbotWidget from '@/component/ChatbotWidget';
+
 import CurvedLine from '@/component/CurvedLine';
 import Description from '@/component/Description';
 import Ecommerce from '@/component/Ecommerce';
@@ -29,7 +29,7 @@ export default function Home() {
       <Ecommerce />
       <ScheduleCall />
     </main>
-    <ChatbotWidget />
+    
     </>
     
   );
