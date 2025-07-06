@@ -2,6 +2,7 @@
 
 
 import Banner from '@/component/Banner';
+import ChatbotWidget from '@/component/ChatbotWidget';
 import CurvedLine from '@/component/CurvedLine';
 import Description from '@/component/Description';
 import Ecommerce from '@/component/Ecommerce';
@@ -18,6 +19,7 @@ export default function Home() {
   }, []);
 
   return (
+    <>
     <main className="flex flex-col items-center justify-center min-h-screen bg-white px-6 py-12">
       <Hero />
       <Description />
@@ -27,5 +29,8 @@ export default function Home() {
       <Ecommerce />
       <ScheduleCall />
     </main>
+    <ChatbotWidget />
+    </>
+    
   );
 }
